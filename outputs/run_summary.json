@@ -1,0 +1,50 @@
+{
+  "n_days": 2500,
+  "date_range": [
+    "2015-01-01",
+    "2024-07-31"
+  ],
+  "tickers": [
+    "TECH_CO",
+    "BANK_CO",
+    "ENERGY_CO",
+    "HEALTH_CO",
+    "BOND_ETF"
+  ],
+  "metrics": {
+    "Regime-Aware Strategy": {
+      "Annualized Return": 0.0941,
+      "Annualized Volatility": 0.1216,
+      "Sharpe Ratio": 0.8005,
+      "Sortino Ratio": 1.174,
+      "Max Drawdown": -0.2398,
+      "Calmar Ratio": 0.3925,
+      "95% Daily VaR": -0.0117,
+      "95% Daily CVaR": -0.0172
+    },
+    "Buy & Hold Benchmark": {
+      "Annualized Return": 0.087,
+      "Annualized Volatility": 0.2098,
+      "Sharpe Ratio": 0.5026,
+      "Sortino Ratio": 0.765,
+      "Max Drawdown": -0.3503,
+      "Calmar Ratio": 0.2485,
+      "95% Daily VaR": -0.0193,
+      "95% Daily CVaR": -0.0288
+    }
+  },
+  "regime_day_counts": {
+    "Choppy/Neutral": 881,
+    "Crisis/Bear": 800,
+    "Calm Bull": 797
+  },
+  "chart_paths": [
+    "C:\\Users\\aggar\\OneDrive\\Desktop\\Kriti Projects\\marketpulse\\charts\\01_regime_overlay.png",
+    "C:\\Users\\aggar\\OneDrive\\Desktop\\Kriti Projects\\marketpulse\\charts\\02_cumulative_performance.png",
+    "C:\\Users\\aggar\\OneDrive\\Desktop\\Kriti Projects\\marketpulse\\charts\\03_drawdowns.png",
+    "C:\\Users\\aggar\\OneDrive\\Desktop\\Kriti Projects\\marketpulse\\charts\\04_rolling_sharpe.png",
+    "C:\\Users\\aggar\\OneDrive\\Desktop\\Kriti Projects\\marketpulse\\charts\\05_correlation_heatmap.png",
+    "C:\\Users\\aggar\\OneDrive\\Desktop\\Kriti Projects\\marketpulse\\charts\\06_regime_clusters.png",
+    "C:\\Users\\aggar\\OneDrive\\Desktop\\Kriti Projects\\marketpulse\\charts\\07_detection_accuracy.png"
+  ]
+}
